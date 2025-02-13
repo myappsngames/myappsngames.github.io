@@ -1,4 +1,4 @@
-# <center>CS-499 | SNHU</center>
+# <center>SNHU | CS-499</center>
 
 ## Computer Science Capstone
 
@@ -9,10 +9,10 @@
 #### Artifact 1: Software Engineering and Design
 
 
-#### Artifact 2: Software Engineering and Design
+#### Artifact 2: Algorithms and Data Structure
 
 
-#### Artifact 3: Software Engineering and Design
+#### Artifact 3: Databases
 
 
 
