@@ -1,7 +1,5 @@
 # <center>SNHU | CS-499</center>
 
-## Computer Science Capstone
-
 #### Code Review
 
 <code>Access the code review <a href="">here</a>.</code>
