@@ -1,5 +1,3 @@
-# <center>SNHU | CS-499</center>
-
 #### Code Review
 
 <code>Access the code review <a href="">here</a>.</code>
