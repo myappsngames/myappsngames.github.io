@@ -1,3 +1,7 @@
+---
+layout: default  # Or whatever layout you're using
+---
+
 ## Code Review
 
 <code>Access the code review <a href="">here</a>.</code>
