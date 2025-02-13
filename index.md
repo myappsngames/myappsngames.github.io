@@ -1,6 +1,3 @@
----
----
-
 ## Code Review
 
 <code>Access the code review <a href="">here</a>.</code>
