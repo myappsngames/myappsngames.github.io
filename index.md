@@ -1,5 +1,5 @@
 ---
-layout: default  # Or whatever layout you're using
+layout: default 
 ---
 
 ## Code Review
