@@ -1,7 +1,7 @@
 ---
 ---
 
-## SNHU CS-499
+## Code Review
 
 <code>Access the code review <a href="">here</a>.</code>
 
