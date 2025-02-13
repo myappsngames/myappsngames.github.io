@@ -1,8 +1,4 @@
----
-layout: default 
----
-
-## Code Review
+## SNHU CS-499
 
 <code>Access the code review <a href="">here</a>.</code>
 
