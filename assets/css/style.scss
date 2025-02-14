@@ -1,4 +1,9 @@
 ---
 ---
-
+$primary-color: #007bff; // Example: Change to a blue color
 @import "{{ site.theme }}";
+
+// Custom styles go here
+body {
+  font-family: 'Arial', sans-serif;
+}
