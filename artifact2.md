@@ -6,7 +6,9 @@ The artifact selected for category two is a Java slideshow application developed
 
 **Justification for Inclusion:**
 
-This Java slideshow application is a valuable addition to my ePortfolio, showcasing my foundational programming skills and demonstrating proficiency in several key areas:
+This Java slideshow application is a valuable addition to my ePortfolio because it showcases my foundational programming skills and demonstrates proficiency in several key areas.  It highlights my ability to apply object-oriented principles, design user interfaces, effectively manage data, and write maintainable code.  This project demonstrates my ability to translate a real-world problem (presenting vacation destinations) into a functional software solution.
+
+**Showcased Skills and Abilities:**
 
 *   **Object-Oriented Principles:** The application's class structure and method utilization demonstrate a solid understanding of object-oriented programming principles.
 *   **Event Handling and UI Design:** The implementation incorporates event handling and user interface design using Swing components, highlighting my ability to create interactive and user-friendly applications.
