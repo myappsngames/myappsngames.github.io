@@ -2,9 +2,7 @@
 <h1></h1>
 **Artifact Description:**
 
-<p>
-  This artifact is a jukebox playlist application developed during my CS-310 Collaboration and Team Project course (October 2024 -   December 2024).  Its purpose is to create and manage a playlist of songs from various musical artists. The core functionality revolves around the `studentPlaylist()` method, which constructs a LinkedList of `PlayableSong` objects and populates it with tracks from different bands. This project was a collaborative effort utilizing a BitBucket repository.
-</p>
+This artifact is a jukebox playlist application developed during my CS-310 Collaboration and Team Project course (October 2024 -   December 2024).  Its purpose is to create and manage a playlist of songs from various musical artists. The core functionality revolves around the `studentPlaylist()` method, which constructs a LinkedList of `PlayableSong` objects and populates it with tracks from different bands. This project was a collaborative effort utilizing a BitBucket repository.
 
 **Justification for Inclusion:**
 This application demonstrates several crucial software development skills, making it a strong addition to my ePortfolio.  Specifically, it highlights my abilities in:
