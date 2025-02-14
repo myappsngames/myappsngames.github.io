@@ -5,7 +5,10 @@
 This artifact is a jukebox playlist application developed during my CS-310 Collaboration and Team Project course (October 2024 -   December 2024).  Its purpose is to create and manage a playlist of songs from various musical artists. The core functionality revolves around the `studentPlaylist()` method, which constructs a LinkedList of `PlayableSong` objects and populates it with tracks from different bands. This project was a collaborative effort utilizing a BitBucket repository.
 
 **Justification for Inclusion:**
-This application demonstrates several crucial software development skills, making it a strong addition to my ePortfolio.  Specifically, it highlights my abilities in:
+
+This jukebox playlist application is a valuable addition to my ePortfolio because it demonstrates several crucial software development skills, making it a strong example of my abilities in code improvement, error handling, and adherence to best practices.  The project showcases my ability to not only write functional code but also to refine and enhance existing codebases, making them more robust, maintainable, and efficient.
+
+**Showcased Skills and Abilities:**
 
 *   **Code Refactoring and Design:** The transformation of the initial code into a more structured, maintainable, and robust version showcases my ability to improve existing codebases.  The introduction of the `addSongsFromBand()` helper method to eliminate redundant code exemplifies effective design principles.
 *   **Defensive Programming and Error Handling:** The implementation of boundary checks and handling for null/empty lists demonstrates a proactive approach to preventing common errors like `IndexOutOfBoundsException` and `NullPointerException`.  The inclusion of informative output messages for null or empty song lists enhances the user experience by providing clear feedback.
