@@ -29,7 +29,7 @@ My approach to the code review involved a structured process of analysis and pla
 
 
 
-<code>[Artifact 2 Narrative](https://myappsngames.github.io/artifact2)</code>
+[Artifact 2 Narrative](https://myappsngames.github.io/artifact2)
 
 ## Artifact 3: Databases
 ### Austin Animal Center Dashboard
