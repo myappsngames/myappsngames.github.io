@@ -13,7 +13,7 @@ This Java slideshow application is a valuable addition to my ePortfolio, showcas
 *   **Data Structures:** The effective use of a HashMap for data storage and retrieval demonstrates my understanding of data structure selection and its impact on application performance.
 *   **Code Refactoring:** The code has been refactored to enhance readability and maintainability, showcasing my ability to improve code quality.
 
-**Improvements Implemented:**
+**Artifact Improvements:**
 
 The artifact was significantly improved through the following enhancements:
 
