@@ -1,5 +1,5 @@
 ## Artifact 1: Software Engineering and Design Narrative
-<p></p>
+<h1></h1>
 **Artifact Description:**
 
 <p>
