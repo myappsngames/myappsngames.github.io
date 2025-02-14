@@ -16,7 +16,7 @@ My approach to the code review involved a structured process of analysis and pla
 #### Jukebox Playlist
 
  
-<img src="https://github.com/myappsngames/myappsngames.github.io/blob/main/images/Artifact%20One%20Enhancement%20-%20Running%20.png" height=250 width=400>
+<img src="images/Artifact-One-Enhancement-Running.png" height=250 width=400>
 
 
 [Artifact 1 Narrative](https://myappsngames.github.io/artifact1)
@@ -25,7 +25,7 @@ My approach to the code review involved a structured process of analysis and pla
 #### Top 5 Destinations Slide Show
 
   
-<img src="https://github.com/myappsngames/myappsngames.github.io/blob/main/images/Artifact%20Two%20Enhancement%20-%20Running.png" height=250 width=400>
+<img src="images/Artifact-Two-Enhancement-Running.png" height=250 width=400>
 
 
 
@@ -35,7 +35,7 @@ My approach to the code review involved a structured process of analysis and pla
 #### Austin Animal Center Dashboard
 
  
-<img src="https://github.com/myappsngames/myappsngames.github.io/blob/main/images/Artifact%20Three%20Enhancement%20-%20Running.png" height=250 width=400>
+<img src="images/Artifact-Three-Enhancement-Running.png" height=250 width=400>
   
 
 [Artifact 3 Narrative](https://myappsngames.github.io/artifact3)
