@@ -14,17 +14,29 @@ My approach to the code review involved a structured process of analysis and pla
 
 ## Artifact 1: Software Engineering and Design
 ### Jukebox Playlist
-
+<center>
+  <a href="" title="">
+    <img src="" height=250>
+  </a>
+</center>
 [Artifact 1 Narrative](https://myappsngames.github.io/artifact1)
 
 ## Artifact 2: Algorithms and Data Structure
 ### Top 5 Destinations Slide Show
-
+<center>
+  <a href="" title="">
+    <img src="" height=250>
+  </a>
+</center>
 [Artifact 2 Narrative](https://myappsngames.github.io/artifact2)
 
 ## Artifact 3: Databases
 ### Austin Animal Center Dashboard
-
+<center>
+  <a href="" title="">
+    <img src="" height=250>
+  </a>
+</center>
 [Artifact 3 Narrative](https://myappsngames.github.io/artifact3)
 
 
