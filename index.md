@@ -28,7 +28,7 @@ My approach to the code review involved a structured process of analysis and pla
     <img src="https://github.com/myappsngames/myappsngames.github.io/blob/main/images/Artifact%20Two%20Enhancement%20-%20Running.png" height=250 width=400>
   </a>
 </center>
-[Artifact 2 Narrative](https://myappsngames.github.io/artifact2)
+<code>[Artifact 2 Narrative](https://myappsngames.github.io/artifact2)</code>
 
 ## Artifact 3: Databases
 ### Austin Animal Center Dashboard
