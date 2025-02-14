@@ -16,7 +16,7 @@ My approach to the code review involved a structured process of analysis and pla
 #### Jukebox Playlist
 
  
-<img src="images/Artifact-One-Enhancement-Running.png" height=375 width=500>
+<img src="images/Artifact-One-Enhancement-Running.png" >
 
 
 [Artifact 1 Narrative](https://myappsngames.github.io/artifact1)
