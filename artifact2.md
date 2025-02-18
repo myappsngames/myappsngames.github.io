@@ -62,5 +62,5 @@ A key challenge was ensuring proper alignment between displayed images and corre
 **Maintainability Enhancements:**
 
 *   **Improved Maintainability:** The use of a HashMap and the `getOrDefault()` method for handling potentially missing keys enhances maintainability.
-*   **Simplified Path Management:** Adding or modifying image paths is now easier, requiring only updates to the `imagePaths` map.
+*   **Simplified Path Management:** Adding or modifying image paths is now easier by only requiring updates to the `imagePaths` map.
 *   **Clear Comments:** Clear comments make the code significantly easier to maintain and modify in the future.
