@@ -104,7 +104,7 @@ I will refactor the Java slideshow application to use a `HashMap` to store the m
 *   **Outcome #3:** The `HashMap` choice demonstrates consideration of computing solutions and trade-offs.
 *   **Outcome #4:** The project uses modern Java libraries and techniques.
 
-### III. Category Three: Client-Server Side Applications
+### III. Category Three: Databases
 
 **Provide a clear, complete description of existing code functionality.**
 
