@@ -44,12 +44,13 @@ The `DominickMarquez_Playlist` class is designed to create a playlist of songs f
 
 I will enhance the playlist Java file by:
 
-1.  **Formatting:** Fixing the code formatting, ensuring consistent indentation.
-2.  **Naming Conventions:** Ensuring consistent camelCase naming for methods and variables.
-3.  **Code Reusability:** Implementing a private helper method to encapsulate the logic for adding songs from a band, reducing code duplication.
-4.  **Defensive Programming:** Adding boundary checks using `Math.min` in the `addSongsFromBand()` method to prevent `IndexOutOfBoundsException`.  Adding null and empty list checks in the `getSongs` methods with user-friendly error messages.
-5.  **Variable Correction:** Removing the unused `StrayKids` variable and replacing it with the correct `strayKidsTracks` variable.
-6.  **Documentation:** Adding well-thought-out Javadoc comments to improve code understanding and reusability.
+1. Fixing the code formatting
+2. Ensuring consistent camelCase naming for methods and variables
+3. Implementing a private helper method to encapsulate the logic for adding songs from a band
+4. Adding boundary checks using `Math.min` in the `addSongsFromBand()` method to prevent `IndexOutOfBoundsException`
+5. Adding null and empty list checks in the `getSongs` methods with user-friendly error messages
+6. Removing the unused `StrayKids` variable and replacing it with the correct `strayKidsTracks` variable
+7. Adding well-thought-out Javadoc comments to improve code understanding and reusability
 
 *Specific Skills Demonstrated:*
 
@@ -88,7 +89,14 @@ The Java slideshow application displays a series of vacation destinations (top-f
 
 *Plan:*
 
-I will refactor the Java slideshow application to use a `HashMap` to store the mapping between image indices and file paths, replacing the `if-else` structure.  I will use `Map.of()` for concise `HashMap` creation. I will separate image path retrieval from HTML construction.  I will add a check for empty image paths and improve comments.
+I will enhance the Java slideshow application by:
+
+1. Using a `HashMap` to store the mapping between image indices and file paths
+2. replacing the `if-else` structure
+3. Using `Map.of()` for concise `HashMap` creation
+4. Separating image path retrieval from HTML construction
+5. Adding a check for empty image paths
+6. Improving comments
 
 *Specific Skills Demonstrated:*
 
@@ -131,13 +139,13 @@ The AAC Dashboard is an interactive web application built with Python, Dash, Mon
 
 I will enhance the AAC Dashboard by:
 
-1.  Removing deprecated code.
-2.  Improving error handling.
-3.  Enhancing responsiveness using Bootstrap.
-4.  Improving chart styling and data handling.
-5.  Enhancing map integration.
-6.  Improving code comments.
-7.  Fixing layout issues.
+1.  Removing deprecated code
+2.  Improving error handling
+3.  Enhancing responsiveness using Bootstrap
+4.  Improving chart styling and data handling
+5.  Enhancing map integration
+6.  Improving code comments
+7.  Fixing layout issues
 
 *Course Outcomes Supported:*
 
