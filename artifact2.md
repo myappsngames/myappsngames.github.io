@@ -36,3 +36,33 @@ The enhancements implemented directly address the following course outcomes:
 The process of enhancing this artifact was a valuable learning experience.  The initial code, relying heavily on `if-else` statements, was inefficient and difficult to maintain.  Introducing a HashMap to store image paths and descriptions highlighted the importance of selecting appropriate data structures for efficiency and readability.  This change significantly reduced code redundancy and simplified the process of adding or modifying slides.  Refactoring the code to use `Map.of()` for map creation further demonstrated the value of leveraging modern language features for improved readability and maintainability.
 
 A key challenge was ensuring proper alignment between displayed images and corresponding text.  This required careful consideration of layout managers and UI element positioning.  Through this process, I deepened my understanding of core Java concepts, including object-oriented programming, data structures, and UI design.  I also learned the importance of code refactoring and the value of choosing the right tools and techniques to improve code quality and maintainability.
+
+## List of Enhancements
+
+**UI Enhancements:**
+
+*   **Destination Description Updates:** Destination descriptions were rewritten to be more appealing and engaging for users.
+*   **Layout Improvements:** The layout of destination descriptions was improved for visual appeal and is no longer off-centered.
+*   **Background Color Change:** The background color of the destination descriptions was changed for better visual presentation.
+*   **Padding Added:** Padding was added to the left side of the destination description text for improved readability.
+
+**Data Structure and Algorithm Enhancements:**
+
+This improved version demonstrates enhanced data structure and algorithm skills by utilizing a more efficient and scalable approach, which also improves readability and reduces code redundancy.
+
+*   **Data Structure:** A HashMap (`imagePaths`) was introduced to store the mapping between the image index (`i`) and its corresponding file path. This allows for efficient lookups based on the index.
+*   **Reduced Redundancy:** The repetitive `if-else` blocks used in the previous version were replaced by using the HashMap to retrieve the image path, significantly reducing code duplication.
+*   **Concise HashMap Creation:**  `Map.of()` was used to create the `imagePaths` HashMap in a concise and immutable way.
+
+**Enhanced Readability:**
+
+*   **Updated Comments:** Comments were updated to clearly explain the purpose of each code section, improving understanding for other developers.
+*   **Concise HashMap Population:** The code is more concise by directly creating and populating the HashMap within the method.
+*   **Clearer Image Path Handling:** Image path retrieval is now separated from HTML string construction, improving code clarity.
+*   **Empty Path Check:** A check for an empty `imagePath` was added to prevent potential errors.
+
+**Maintainability Enhancements:**
+
+*   **Improved Maintainability:** The use of a HashMap and the `getOrDefault()` method for handling potentially missing keys enhance maintainability.
+*   **Simplified Path Management:** Adding or modifying image paths is now easier, requiring only updates to the `imagePaths` map.
+*   **Clear Comments:** Clear comments make the code significantly easier to maintain and modify in the future.
