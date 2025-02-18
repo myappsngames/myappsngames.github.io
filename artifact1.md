@@ -46,11 +46,10 @@ The process of enhancing and modifying this artifact provided valuable insights 
 
 **Code Readability and Maintainability Enhancements:**
 
-*   **Javadoc Comments:**  Comprehensive Javadoc comments were added to the class and its methods, providing clear documentation of their purpose and functionality.
-*   **Consistent Formatting:**  The code was reformatted for consistency, improving readability and making it easier to follow the logic.
+*   **Javadoc Comments:**  Comprehensive Javadoc comments were added to the class and its methods.
+*   **Consistent Formatting:**  The code was reformatted for consistency.
 *   **Meaningful Method Names:**  Method names were made more descriptive and accurately reflect their purpose.
-*   **Redundant Code Removal:**  Redundant code related to creating and adding songs was eliminated, making the code more concise and efficient.
-
+*   **Redundant Code Removal:**  Redundant code related to creating and adding songs was eliminated.
 **Code Structure Enhancements:**
 
 *   **Improved Code Structure:** The `studentPlaylist()` method is now focused solely on playlist creation, while the `addSongsFromBand()` method handles the logic for adding songs from a specific band. This separation of concerns significantly improves code organization and maintainability.
