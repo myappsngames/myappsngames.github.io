@@ -42,7 +42,7 @@ The process of enhancing and modifying this artifact provided valuable insights 
 
 *   **Exception Handling in `studentPlaylist()`:**  A `try-catch` block was added to the `studentPlaylist()` method to gracefully handle potential exceptions during playlist creation.  This prevents unexpected program crashes due to issues accessing song data from the `get[Band]Songs()` methods.
 *   **Error Logging:**  Within the `catch` block, error messages are now printed to the standard error stream (`System.err.println()`).  This provides valuable logging information for developers and users to diagnose and resolve errors.
-*   **Enhanced `addSongsFromBand()` Error Handling:** The `addSongsFromBand()` method now includes checks for `null` and empty song lists returned by the `get[Band]Songs()` methods. This prevents `NullPointerExceptions` and provides informative warning messages. Specific error messages are now included for both null and empty list cases, improving debugging.
+*   **Enhanced `addSongsFromBand()` Error Handling:** The `addSongsFromBand()` method now includes checks for `null` and empty song lists returned by the `get[Band]Songs()` methods. This prevents `NullPointerExceptions` and provides informative warning messages.
 
 **Code Readability and Maintainability Enhancements:**
 
