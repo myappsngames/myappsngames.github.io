@@ -1,4 +1,4 @@
-## Artifact 3: Databases Narrative
+## Artifact 3: Narrative
 
 **Artifact Description:**
 
