@@ -1,4 +1,4 @@
-## Artifact 2: Algorithms and Data Structure Narrative
+## Artifact 2: Algorithms and Data Structures Narrative
 
 **Artifact Description:**
 
