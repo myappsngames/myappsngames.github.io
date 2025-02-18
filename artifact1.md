@@ -32,3 +32,26 @@ The enhancements implemented directly address the following course outcomes:
 The process of enhancing and modifying this artifact provided valuable insights into the importance of code reviews.  Initially, I struggled to identify areas for improvement.  However, using a code review checklist provided a new perspective, revealing opportunities for refactoring and enhancement.  This experience underscored the value of viewing code through a different lens.  The refactoring process, aimed at removing redundancy and improving structure, became clear after this shift in perspective.  Furthermore, implementing boundary checks and null/empty list handling reinforced the crucial role of defensive programming in building robust and reliable software.  Overall, this enhancement process was a valuable learning experience that solidified my understanding of good coding practices and provided practical application of software engineering principles.
 
 ## Artifact 1: List of Enhancements
+This document details the enhancements made to the Jukebox Playlist application for Artifact One, focusing on testing, error handling, code readability, maintainability, and structure.
+
+**Testing Enhancements:**
+
+*   **Added Test File:** A dedicated test file was created to verify the correct functionality of artist album size checks.
+*   **Artist-Specific Tests:** Three new tests were implemented, one for each artist (Metallica, Sleeping with Sirens, and Stray Kids) whose songs I contributed to the playlist.  These tests ensure that the artists' songs are being added to the playlist as expected.
+
+**Error Handling Enhancements:**
+
+*   **Exception Handling in `studentPlaylist()`:**  A `try-catch` block was added to the `studentPlaylist()` method to gracefully handle potential exceptions during playlist creation.  This prevents unexpected program crashes due to issues accessing song data from the `get[Band]Songs()` methods.
+*   **Error Logging:**  Within the `catch` block, error messages are now printed to the standard error stream (`System.err.println()`).  This provides valuable logging information for developers and users to diagnose and resolve errors.
+*   **Enhanced `addSongsFromBand()` Error Handling:** The `addSongsFromBand()` method now includes checks for `null` and empty song lists returned by the `get[Band]Songs()` methods. This prevents `NullPointerExceptions` and provides informative warning messages. Specific error messages are now included for both null and empty list cases, improving debugging.
+
+**Code Readability and Maintainability Enhancements:**
+
+*   **Javadoc Comments:**  Comprehensive Javadoc comments were added to the class and its methods, providing clear documentation of their purpose and functionality.
+*   **Consistent Formatting:**  The code was reformatted for consistency, improving readability and making it easier to follow the logic.
+*   **Meaningful Method Names:**  Method names were made more descriptive and accurately reflect their purpose.
+*   **Redundant Code Removal:**  Redundant code related to creating and adding songs was eliminated, making the code more concise and efficient.
+
+**Code Structure Enhancements:**
+
+*   **Improved Code Structure:** The `studentPlaylist()` method is now focused solely on playlist creation, while the `addSongsFromBand()` method handles the logic for adding songs from a specific band. This separation of concerns significantly improves code organization and maintainability.
