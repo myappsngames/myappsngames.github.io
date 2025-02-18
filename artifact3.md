@@ -45,3 +45,54 @@ The enhancements directly address the following course outcomes:
 Enhancing the AAC Dashboard was a valuable learning experience.  I gained a deeper understanding of the Dash framework and how to effectively link components for an interactive user experience.  The importance of writing maintainable code became clear when revisiting earlier iterations. Working with real-world MongoDB data and using Pandas for cleaning and transformation reinforced my data handling skills.  I also gained a better understanding of data visualization principles, learning how to choose appropriate chart types and present data effectively.
 
 Challenges included managing the complexity of Dash callbacks, ensuring data consistency across components, and debugging interactive elements.  Maintaining data consistency between the data table, charts, and map during filtering and sorting required careful attention.  Overall, this process was challenging but rewarding, improving my web application development, data visualization, and problem-solving skills, and increasing my confidence in tackling complex projects.
+
+## List of Enhancements
+
+**Deprecated Code Removal:**
+
+*   `jupyter_dash` dependency was removed as its features are now integrated into `dash`.
+*   `app.run_server` was replaced with the updated `app.run` command.
+*   Leftover `FIX ME` comments were cleaned up.
+*   Code comments were made more meaningful and informative.
+
+**UI and Styling Enhancements:**
+
+*   A left margin was added to the filtering options for improved visual organization.
+*   A horizontal slider was implemented for pagination in the data table, enhancing user experience.
+*   The data table header was styled with bold text for better visual hierarchy.
+
+**`update_dashboard()` Method Enhancements:**
+
+*   **Try/Except Block:** A `try/except` block was added to catch potential errors during database queries, DataFrame creation, or column manipulation.  This prevents application crashes and provides more robust error handling.  The `except` block prints a descriptive error message using an f-string, including the specific exception type.
+*   **`_id` Column Handling:** The code retains the check and removal of the `_id` column.
+*   **Clearer Comments:**  Comments were refined to further clarify the function's purpose, the `try/except` block, and the handling of the `_id` column.
+
+**`update_graphs()` Method Enhancements:**
+
+*   **Responsive Graph Resizing:** The `style` dictionary was removed, leveraging Bootstrap's grid layout (`col-md-6`) for automatic and responsive graph resizing.
+*   **Try/Except Block:** A `try/except` block was implemented to handle potential errors during data processing, such as unexpected data formats.
+*   **Data Validation:** The code now checks if `viewData` is `None` or empty. This prevents errors when the DataTable has no data to display.
+*   **Pie Chart Title:** A title ("Animal Breed Distribution") was added to the pie chart for improved clarity.
+*   **Responsive Graph Container:** The `style` attribute was removed from the `dcc.Graph` component. This allows the graph to responsively fill its container thanks to the Bootstrap grid.
+*   **Empty Data Handling:** The callback now returns an empty list `[]` if an error occurs or if there is no data to display.
+
+**`update_map()` Method Enhancements:**
+
+*   **Nested Try/Except Block:** A nested `try/except` block was implemented. The inner `try` block handles data conversion (e.g., `float()`) and validation (latitude/longitude range), explicitly raising `ValueError` for invalid coordinates. The outer block catches other unexpected errors.
+*   **Missing Name Handling:** The code checks for missing animal names (either `None` or an empty string) and displays "Unknown" in the popup if the name is missing.
+*   **Corrected Data Indexing:** The code was corrected to use the proper indices for retrieving latitude, longitude, and name data.
+*   **Data Validation:** Checks for `viewData`, `dff`, and `index` were added to prevent errors.
+*   **Row Index Check:** A check was added to ensure the row index is within range.
+*   **Responsive Map Width:** The map width was made responsive using `style={'width': '100%', 'height': '100%'}`.
+*   **Meaningful Comments:**  Meaningful comments were added to explain the method's logic.
+
+**Logo and Title Enhancements:**
+
+*   **Try Block for Logo:** A `try` block was added to handle `FileNotFoundError` if the logo image is not found.
+*   **Image Check:** A check was added to ensure the `encoded_image` variable is not `None`.
+*   **Flexbox Layout:** A Flexbox layout was implemented to improve the visual appeal and responsiveness of the logo and title section.
+*   **Meaningful Comments:** Meaningful comments were added to explain the changes.
+
+**Layout Enhancements:**
+
+*   The code was adjusted to ensure the chart and geolocation chart are displayed side-by-side.
