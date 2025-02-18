@@ -1,6 +1,6 @@
 ## Code Review
 
-### I. Category One: Software Design and Engineering
+### I. Category One: Software Engineering and Design
 
 **Provide a clear, complete description of existing code functionality.**
 
