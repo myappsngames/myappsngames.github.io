@@ -138,7 +138,6 @@ I will enhance the AAC Dashboard by:
 5.  Enhancing map integration.
 6.  Improving code comments.
 7.  Fixing layout issues.
-8.  Implementing least privilege for database access.
 
 *Course Outcomes Supported:*
 
