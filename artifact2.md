@@ -48,21 +48,19 @@ A key challenge was ensuring proper alignment between displayed images and corre
 
 **Data Structure and Algorithm Enhancements:**
 
-This improved version demonstrates enhanced data structure and algorithm skills by utilizing a more efficient and scalable approach, which also improves readability and reduces code redundancy.
-
 *   **Data Structure:** A HashMap (`imagePaths`) was introduced to store the mapping between the image index (`i`) and its corresponding file path. This allows for efficient lookups based on the index.
-*   **Reduced Redundancy:** The repetitive `if-else` blocks used in the previous version were replaced by using the HashMap to retrieve the image path, significantly reducing code duplication.
+*   **Reduced Redundancy:** The repetitive `if-else` blocks used in the previous version were replaced by using the HashMap to retrieve the image path.
 *   **Concise HashMap Creation:**  `Map.of()` was used to create the `imagePaths` HashMap in a concise and immutable way.
 
 **Enhanced Readability:**
 
-*   **Updated Comments:** Comments were updated to clearly explain the purpose of each code section, improving understanding for other developers.
+*   **Updated Comments:** Comments were updated to clearly explain the purpose of each code section.
 *   **Concise HashMap Population:** The code is more concise by directly creating and populating the HashMap within the method.
-*   **Clearer Image Path Handling:** Image path retrieval is now separated from HTML string construction, improving code clarity.
+*   **Clearer Image Path Handling:** Image path retrieval is now separated from HTML string construction.
 *   **Empty Path Check:** A check for an empty `imagePath` was added to prevent potential errors.
 
 **Maintainability Enhancements:**
 
-*   **Improved Maintainability:** The use of a HashMap and the `getOrDefault()` method for handling potentially missing keys enhance maintainability.
+*   **Improved Maintainability:** The use of a HashMap and the `getOrDefault()` method for handling potentially missing keys enhances maintainability.
 *   **Simplified Path Management:** Adding or modifying image paths is now easier, requiring only updates to the `imagePaths` map.
 *   **Clear Comments:** Clear comments make the code significantly easier to maintain and modify in the future.
