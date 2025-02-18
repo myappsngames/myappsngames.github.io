@@ -31,7 +31,7 @@ The enhancements implemented directly address the following course outcomes:
 **Reflection on the Enhancement Process:**
 The process of enhancing and modifying this artifact provided valuable insights into the importance of code reviews.  Initially, I struggled to identify areas for improvement.  However, using a code review checklist provided a new perspective, revealing opportunities for refactoring and enhancement.  This experience underscored the value of viewing code through a different lens.  The refactoring process, aimed at removing redundancy and improving structure, became clear after this shift in perspective.  Furthermore, implementing boundary checks and null/empty list handling reinforced the crucial role of defensive programming in building robust and reliable software.  Overall, this enhancement process was a valuable learning experience that solidified my understanding of good coding practices and provided practical application of software engineering principles.
 
-## Artifact 1: List of Enhancements
+## List of Enhancements
 This document details the enhancements made to the Jukebox Playlist application for Artifact One, focusing on testing, error handling, code readability, maintainability, and structure.
 
 **Testing Enhancements:**
