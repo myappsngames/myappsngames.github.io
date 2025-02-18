@@ -25,6 +25,5 @@ My approach to the code review involved a structured process of analysis and pla
 ## Artifact 3: Databases
 #### Austin Animal Center Dashboard
 <img src="images/Artifact-Three-Enhancement-Running.png">
-[Artifact 3 Narrative](https://myappsngames.github.io/artifact3)
 <code>Access the Artifact 3 Narrative <a href="https://myappsngames.github.io/artifact3">here</a>.</code>
 
