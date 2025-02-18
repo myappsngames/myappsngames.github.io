@@ -20,7 +20,13 @@ My approach to the code review involved a structured process of analysis and pla
 
 
 [Artifact 1 Narrative](https://myappsngames.github.io/artifact1)
-<code>Access the Artifact 1 Narrative <a href="">here</a>.</code>
+<code>
+ Access the Artifact 1 Narrative 
+ <a 
+  href="https://myappsngames.github.io/artifact1">here
+ </a>
+ .
+</code>
 
 ## Artifact 2: Algorithms and Data Structure
 #### Top 5 Destinations Slide Show
